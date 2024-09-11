@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #0d1544;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.intro {
+    height: 100vh;
+    background: linear-gradient(to right, #0d1544, #4a23f9); /*coisa o gradiente do fundo do site*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a323f9;
+    color: #fff;
+}
+
+.textoprojeto {
+    margin-top: 90px;
+}
+
+.projects {
+    padding: 80px 20px;
+    background: linear-gradient(to left, #b047f1, #5500c5); 
+    text-align: center;
+    
+}
+
+.projects h2 {
+    margin-bottom: 120px;
+    font-size: 36px;
+    color: #ffffff
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
+.project {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.project p {
+    padding: 0 20px 20px;
+    color: #666;
+}
+
+.about, .contact {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #0d1544, #415ae9);
+    color: #fff;
+    font-size: 25px;
+}
+
+.eec {
+    background-color: #fff;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+
+}
+
+.eec:hover {
+    background-color: #a323f9;
+    color: #fff;
+}
+
+footer {
+    background-color: #0d1544;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+footer p {
+    margin: 0;
+}
+.project:hover {
+    background-color: #c7c7c7;
+    transform: scale(1.1);
+    opacity: 0.8;
+
+}
+ 
